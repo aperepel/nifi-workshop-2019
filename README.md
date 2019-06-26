@@ -29,6 +29,7 @@ cd /opt/nifi/nifi-toolkit-current/bin
 ```
 
 TIP: --input can be any URL, e.g. use https:// and a full path to raw flowfile json on github
+```https://raw.githubusercontent.com/aperepel/nifi-workshop-2019/master/workshop-flow.json```
 
 ## Launch a root shell in the 'nifi' container
 ```docker exec -it --user root nifi bash```
